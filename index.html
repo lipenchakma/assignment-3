@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03</title>
+    <!-- Daisy Ui & Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/621ae64516.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    
+
+<body class="container mx-auto font-manrope">
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 justify-between">
+                <div class="navbar-start">
+                    <div class="flex items-center space-x-2">
+                        <i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 rounded-full text-xl h-8 w-8 justify-center items-center inline-flex mr-2"></i>
+                        <a class=" text-2xl lg:text-3xl font-bold cursor-pointer">Rinterio</a>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl font-[500]">
+                        <li class="hover:text-slate-900 duration-300 easy-in-out text-slate-400"><a>Home</a></li>
+                        <li class="hover:text-slate-900 duration-300 easy-in-out text-slate-400"><a>Services</a></li>
+                        <li class="hover:text-slate-900 duration-300 easy-in-out text-slate-400"><a>Portfolio </a></li>
+                        <li class="hover:text-slate-900 duration-300 easy-in-out text-slate-400"><a>Blogs</a></li>
+                        <li class="hover:text-slate-900 duration-300 easy-in-out text-slate-400"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-2 hidden md:flex lg:flex space-x-5">
+                    <h6><i class="fa-solid fa-magnifying-glass"></i></h6>
+                    <h6><i class="fa-solid fa-cart-shopping"></i></h6>
+                    <button class="bg-lime-400 px-5 py-3 rounded-lg lg:text-xl md:text-base font-bold">Book Consult<i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 rounded-full lg:text-xl md:text-base h-8 w-8 justify-center items-center inline-flex ml-6 text-white"
+                            aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="mt-24"> 
+                <div class="py-12 text-center flex flex-col items-center justify-center">
+                    <div>
+                        <img src="./assets/banner.png" alt="">
+                    </div>
+                    <div class="lg:px-56">
+                        <h1 class="text-5xl font-bold mb-12">A barn house of this design has a 
+                            <br>
+                            striking appearance</h1>
+                        <p class="mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                            weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                        </p>
+                        <button class="bg-lime-200 px-5 py-3 rounded-lg lg:text-xl md:text-base font-bold">Book Consult<i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 rounded-full lg:text-xl md:text-base h-8 w-8 justify-center items-center inline-flex ml-6 text-slate-900"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Design Section -->
+         <section>
+
+         </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
