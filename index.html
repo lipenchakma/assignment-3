@@ -70,16 +70,16 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <div class="items-center gap-4 lg:font-semibold text-xl hidden md:flex lg:flex">
+                    <div class="items-center md:gap-1 lg:gap-4 lg:font-semibold text-xl hidden md:flex lg:flex">
                         <button>
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
                         <button>
                             <i class="fa-solid fa-cart-shopping"></i>
                         </button>
-                        <button class="bg-lime-400 px-5 py-3 rounded-full lg:text-xl md:text-base font-semibold">Book
+                        <button class="bg-lime-400 lg:py-3 lg:px-6 md:px-4 md:py-3 rounded-full lg:text-xl md:text-lg font-semibold lg:justify-center items-center lg:inline-flex lg:flex-row">Book
                             Consult<i
-                                class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 rounded-full lg:text-xl md:text-base h-8 w-8 justify-center items-center inline-flex ml-6 text-white"
+                                class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 rounded-full lg:text-xl md:text-base md:h-6 md:w-6 lg:h-8 lg:w-8 justify-center items-center  inline-flex lg:ml-4 md:ml-2 text-white"
                                 aria-hidden="true"></i></button>
                     </div>
 
@@ -103,7 +103,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
     <main>
         <!-- Hero Section -->
@@ -150,7 +149,7 @@
                                     <div class="hero-content flex-row p-8 bg-white rounded-xl">
                                         <img src="./assets/commercial.png" class="max-w-sm rounded-lg shadow-2xl" />
                                         <div class="space-y-2">
-                                            <h1 class="text-xl font-bold text-[#494949] text-left">Commercial</h1>
+                                            <h1 class="text-xl font-bold text-slate-800  text-left">Commercial</h1>
                                             <p class="lg:w-2/3">The barn house captivates with its blend of rustic charm
                                                 and modern.</p>
                                         </div>
@@ -158,9 +157,9 @@
                                 </div>
                                 <div class="hero bg-base-200">
                                     <div class="hero-content flex-row p-8 bg-white rounded-xl">
-                                        <img src="./assets/residential.png" class="max-w-sm rounded-lg shadow-2xl" />
+                                        <img src="./assets/residential.png" class="max-w-sm rounded-xl shadow-2xl" />
                                         <div class="space-y-2">
-                                            <h1 class="text-xl font-bold text-[#494949] text-left">Residential</h1>
+                                            <h1 class="text-xl font-bold text-slate-800 text-left">Residential</h1>
                                             <p class="lg:w-2/3">The barn house captivates with its blend of rustic charm
                                                 and modern.</p>
                                         </div>
@@ -177,7 +176,7 @@
         </section>
 
         <!-- Work Process Section -->
-        <section>
+        <section class="container mx-auto">
             <div class="container mx-auto pb-12">
                 <div class="flex flex-col justify-center items-center space-y-4 ">
                     <a class=" cursor-pointer py-1 px-4 rounded-full bg-white text-lg font-bold text-slate-900 hover:text-lime-600 transition-colors duration-300 ease-in-out"><i
@@ -212,7 +211,7 @@
         </section>
 
         <!-- Portfolio Section -->
-        <section>
+        <section class="container mx-auto">
             <div class="container mx-auto py-20 ">
                 <div class="flex flex-col justify-center items-center space-y-4 mb-6 ">
                     <a class=" cursor-pointer py-2 px-4 rounded-full bg-lime-200 text-lg font-semibold text-slate-900 hover:text-lime-600 transition-colors duration-300 ease-in-out"><i
@@ -231,7 +230,7 @@
                                 <p class="">The barn house captivates with its blend of rustic charm and modern. The
                                     barn house captivates with its blend of rustic charm and modern .</p>
                                 <div>
-                                    <a class="cursor-pointer text-xl font-extrabold hover:none">View Details<i
+                                    <a class="cursor-pointer text-lg font-bold hover:none">View Details<i
                                             class="fa-solid fa-arrow-right w-7 h-7 bg-lime-400 rounded-full text-xl -rotate-45 justify-center items-center inline-flex text-black ml-2"
                                             aria-hidden="true"></i></a>
                                 </div>
@@ -257,7 +256,7 @@
                                 <p class="">The barn house captivates with its blend of rustic charm and modern. The
                                     barn house captivates with its blend of rustic charm and modern .</p>
                                 <div>
-                                    <a class="cursor-pointer text-xl font-extrabold hover:none">View Details<i
+                                    <a class="cursor-pointer text-lg font-bold hover:none">View Details<i
                                             class="fa-solid fa-arrow-right w-7 h-7 bg-lime-400 rounded-full text-xl -rotate-45 justify-center items-center inline-flex text-black ml-2"
                                             aria-hidden="true"></i></a>
                                 </div>
@@ -277,7 +276,7 @@
         </section>
         
         <!-- Article Section -->
-        <section class="bg-base-200 py-20">
+        <section class="container mx-auto bg-base-200 py-20 border-2 rounded-md">
             <div class="container mx-auto">
                 <div class="flex flex-col justify-center items-center space-y-4 mb-6 ">
                     <a class=" cursor-pointer py-2 px-4 rounded-full bg-lime-200 text-lg font-semibold text-slate-900 hover:text-lime-600 transition-colors duration-300 ease-in-out"><i
@@ -345,6 +344,51 @@
             </div>
         </section>
 
+        <!-- My Section -->
+        <section class="container mx-auto m-12 border-2 rounded-lg py-4 bg-base-200">
+            <h3 class="text-3xl font-bold text-center my-6 px-2">Frequently Asked <span class="text-lime-400">Questions</span></h3>
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row gap-y-12 md:gap-x-12 ">
+                    <div class="space-y-5">
+                        <div class="collapse collapse-arrow border border-blue-100">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What are the key factors to consider when designing a house?</div>
+                            <div class="collapse-content">
+                                <p>Key factors include your lifestyle needs, budget, location, lot size, architectural style, energy efficiency, and future-proofing for possible expansions. It's important to prioritize functionality and ensure that the design aligns with your personal preferences and local regulations. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow border border-blue-100">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How do I choose the right floor plan for my house?</div>
+                            <div class="collapse-content">
+                                <p>Choose a floor plan based on your family size, how you use your space, and your long-term needs. Consider the flow between rooms, number of bedrooms and bathrooms, and how much outdoor space you want.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow border border-blue-100">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">What is an open floor plan, and should I consider it for my home?</div>
+                            <div class="collapse-content">
+                                <p>An open floor plan eliminates barriers like walls between living spaces, such as the kitchen, dining area, and living room. It's ideal for social interaction, making small spaces feel larger, and allowing more natural light.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow border border-blue-100">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">What is the importance of orientation in house design?</div>
+                            <div class="collapse-content">
+                                <p>Proper orientation maximizes natural light and heat, which can reduce energy costs. In cooler climates, orient your house to capture the sun’s warmth, while in hotter climates.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow border border-blue-100">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How can I make my house more energy-efficient?</div>
+                            <div class="collapse-content">
+                                <p>To improve energy efficiency, incorporate high-quality insulation, energy-efficient windows, and doors. Install LED lighting, choose energy-efficient appliances, and consider solar panels. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Form Section -->
         <section class="bg-formBg bg-cover py-20 border-white border-3">
             <div >
@@ -386,7 +430,7 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="container mx-auto">
+    <footer >
         <section class="bg-[#1C1C1C] py-20">
             <div class="lg:w-7/12 md:w-9/12 mx-auto space-y-4">
                 <div class=" justify-center flex items-center">
